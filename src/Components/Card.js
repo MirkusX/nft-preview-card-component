@@ -1,9 +1,9 @@
 import equilibrium from "../Images/equilibrium.jpg";
-import { StyledDiv, StyledImg } from "./StyledComponents";
+import { StyledDiv, StyledImg, StyledSection } from "./StyledComponents";
 
 export const Card = () => {
   return (
-    <section>
+    <StyledSection>
       <StyledDiv>
         <div>
           <StyledImg src={equilibrium} />
@@ -21,6 +21,6 @@ export const Card = () => {
           <p>Creation of Jules Wyvern</p>
         </div>
       </StyledDiv>
-    </section>
+    </StyledSection>
   );
 };
