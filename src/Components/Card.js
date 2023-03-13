@@ -1,11 +1,12 @@
 import equilibrium from "../Images/equilibrium.jpg";
+import { StyledDiv, StyledImg } from "./StyledComponents";
 
 export const Card = () => {
   return (
     <section>
-      <div>
+      <StyledDiv>
         <div>
-          <img src={equilibrium} />
+          <StyledImg src={equilibrium} />
         </div>
         <h1>Equilibrium #3429</h1>
         <p>
@@ -19,7 +20,7 @@ export const Card = () => {
         <div>
           <p>Creation of Jules Wyvern</p>
         </div>
-      </div>
+      </StyledDiv>
     </section>
   );
 };
