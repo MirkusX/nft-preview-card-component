@@ -34,5 +34,9 @@ export const StyledSection = styled.section`
 
 export const FlexDiv = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+`;
+
+export const StyledH1 = styled.h1`
+  color: #2ee8e9;
 `;

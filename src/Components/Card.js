@@ -3,6 +3,7 @@ import {
   AlignLeftDiv,
   FlexDiv,
   StyledDiv,
+  StyledH1,
   StyledImg,
   StyledSection,
 } from "./StyledComponents";
@@ -15,7 +16,7 @@ export const Card = () => {
           <StyledImg src={equilibrium} />
         </div>
         <AlignLeftDiv>
-          <h1>Equilibrium #3429</h1>
+          <StyledH1>Equilibrium #3429</StyledH1>
           <p>
             Our Equilibrium collection promotes bankruptcy and environmental
             disaster
