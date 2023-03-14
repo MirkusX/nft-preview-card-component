@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { FaEthereum } from "react-icons/fa";
+
+export const EthIcon = styled(FaEthereum)``;
 
 export const StyledDiv = styled.div`
   background-color: #15273f;
@@ -35,8 +38,19 @@ export const StyledSection = styled.section`
 export const FlexDiv = styled.div`
   display: flex;
   justify-content: space-between;
+  ${(props) => {
+    if (props.noSpaceBetween)
+      return `
+    justify-content: flex-start;
+    align-items: center;`;
+  }}
 `;
 
 export const StyledH1 = styled.h1`
   color: #2ee8e9;
+  margin-bottom: 0;
+`;
+
+export const StyledP = styled.p`
+  color: #8ba0bf;
 `;

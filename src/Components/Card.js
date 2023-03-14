@@ -1,10 +1,12 @@
 import equilibrium from "../Images/equilibrium.jpg";
 import {
   AlignLeftDiv,
+  EthIcon,
   FlexDiv,
   StyledDiv,
   StyledH1,
   StyledImg,
+  StyledP,
   StyledSection,
 } from "./StyledComponents";
 
@@ -17,12 +19,15 @@ export const Card = () => {
         </div>
         <AlignLeftDiv>
           <StyledH1>Equilibrium #3429</StyledH1>
-          <p>
+          <StyledP>
             Our Equilibrium collection promotes bankruptcy and environmental
             disaster
-          </p>
+          </StyledP>
           <FlexDiv>
-            <p>0.041 ETH</p>
+            <FlexDiv noSpaceBetween>
+              <EthIcon />
+              <p>0.041 ETH</p>
+            </FlexDiv>
             <p>3 days left</p>
           </FlexDiv>
           <div>
