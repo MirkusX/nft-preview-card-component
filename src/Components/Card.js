@@ -1,6 +1,7 @@
 import equilibrium from "../Images/equilibrium.jpg";
 import {
   AlignLeftDiv,
+  ClockIcon,
   EthIcon,
   FlexDiv,
   StyledDiv,
@@ -28,7 +29,10 @@ export const Card = () => {
               <EthIcon />
               <p>0.041 ETH</p>
             </FlexDiv>
-            <p>3 days left</p>
+            <FlexDiv noSpaceBetween>
+              <ClockIcon />
+              <p>3 days left</p>
+            </FlexDiv>
           </FlexDiv>
           <div>
             <p>Creation of Jules Wyvern</p>

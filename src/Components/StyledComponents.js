@@ -1,7 +1,10 @@
 import styled from "styled-components";
 import { FaEthereum } from "react-icons/fa";
+import { AiFillClockCircle } from "react-icons/ai";
 
 export const EthIcon = styled(FaEthereum)``;
+
+export const ClockIcon = styled(AiFillClockCircle)``;
 
 export const StyledDiv = styled.div`
   background-color: #15273f;
