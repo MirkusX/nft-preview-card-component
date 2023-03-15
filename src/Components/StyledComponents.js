@@ -2,7 +2,10 @@ import styled from "styled-components";
 import { FaEthereum } from "react-icons/fa";
 import { AiFillClockCircle, AiFillEye } from "react-icons/ai";
 
-export const AyeIcon = styled(AiFillEye)``;
+export const AyeIcon = styled(AiFillEye)`
+  width: 40px;
+  height: 40px;
+`;
 
 export const EthIcon = styled(FaEthereum)``;
 
@@ -70,7 +73,7 @@ export const StyledP = styled.p`
 `;
 
 export const OverlayDiv = styled.div`
-  display: block;
+  display: flex;
   position: absolute;
   background-color: #008c99;
   height: 99%;
@@ -80,6 +83,9 @@ export const OverlayDiv = styled.div`
   border-radius: 10px;
   opacity: 0;
   transition: all 0.3s ease-in;
+  align-items: center;
+  justify-content: center;
+  color: white;
   &:hover {
     opacity: 0.5;
   }

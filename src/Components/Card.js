@@ -2,6 +2,7 @@ import equilibrium from "../Images/equilibrium.jpg";
 import avatar from "../Images/avatar.png";
 import {
   AlignLeftDiv,
+  AyeIcon,
   ClockIcon,
   EthIcon,
   FlexDiv,
@@ -21,7 +22,9 @@ export const Card = () => {
       <StyledDiv>
         <HoverDiv>
           <StyledImg src={equilibrium} />
-          <OverlayDiv />
+          <OverlayDiv>
+            <AyeIcon />
+          </OverlayDiv>
         </HoverDiv>
         <AlignLeftDiv>
           <StyledH1>Equilibrium #3429</StyledH1>
