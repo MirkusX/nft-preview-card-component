@@ -32,6 +32,10 @@ export const AlignLeftDiv = styled.div`
 
 export const StyledSpan = styled.span`
   color: #eef8ff;
+  cursor: pointer;
+  &:hover {
+    color: #23d8e6;
+  }
 `;
 
 export const StyledSection = styled.section`
@@ -66,6 +70,10 @@ export const FlexDiv = styled.div`
 export const StyledH1 = styled.h1`
   color: #fcffff;
   margin-bottom: 0;
+  cursor: pointer;
+  &:hover {
+    color: #23d8e6;
+  }
 `;
 
 export const StyledP = styled.p`
@@ -86,6 +94,7 @@ export const OverlayDiv = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
+  cursor: pointer;
   &:hover {
     opacity: 0.5;
   }
