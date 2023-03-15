@@ -28,6 +28,9 @@ export const AlignLeftDiv = styled.div`
 export const StyledImg = styled.img`
   width: 90%;
   border-radius: 10px;
+  ${(props) => {
+    if (props.avatar) return ``;
+  }}
 `;
 
 export const StyledSection = styled.section`
@@ -45,12 +48,22 @@ export const FlexDiv = styled.div`
     if (props.noSpaceBetween)
       return `
     justify-content: flex-start;
-    align-items: center;`;
+    align-items: center;
+    color: #8ba0bf;
+    gap: 0.3em;`;
+  }}
+  ${(props) => {
+    if (props.noSpaceBetweenAlt)
+      return `
+    justify-content: flex-start;
+    align-items: center;
+    color:#23D8E6;
+    gap: 0.3em;  `;
   }}
 `;
 
 export const StyledH1 = styled.h1`
-  color: #2ee8e9;
+  color: #fcffff;
   margin-bottom: 0;
 `;
 

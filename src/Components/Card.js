@@ -25,7 +25,7 @@ export const Card = () => {
             disaster
           </StyledP>
           <FlexDiv>
-            <FlexDiv noSpaceBetween>
+            <FlexDiv noSpaceBetweenAlt>
               <EthIcon />
               <p>0.041 ETH</p>
             </FlexDiv>
