@@ -5,6 +5,8 @@ import {
   ClockIcon,
   EthIcon,
   FlexDiv,
+  HoverDiv,
+  OverlayDiv,
   StyledDiv,
   StyledH1,
   StyledImg,
@@ -17,9 +19,10 @@ export const Card = () => {
   return (
     <StyledSection>
       <StyledDiv>
-        <div>
+        <HoverDiv>
           <StyledImg src={equilibrium} />
-        </div>
+          <OverlayDiv />
+        </HoverDiv>
         <AlignLeftDiv>
           <StyledH1>Equilibrium #3429</StyledH1>
           <StyledP>
