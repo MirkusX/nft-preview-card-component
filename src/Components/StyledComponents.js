@@ -27,18 +27,6 @@ export const AlignLeftDiv = styled.div`
   flex-direction: column;
 `;
 
-export const StyledImg = styled.img`
-  width: 90%;
-  border-radius: 10px;
-  ${(props) => {
-    if (props.avatar)
-      return `
-    width: 10%;
-    border: white 1px solid;
-    border-radius: 50%;`;
-  }}
-`;
-
 export const StyledSpan = styled.span`
   color: #eef8ff;
 `;
@@ -82,6 +70,7 @@ export const StyledP = styled.p`
 `;
 
 export const OverlayDiv = styled.div`
+  display: block;
   position: absolute;
   background-color: #008c99;
   height: 99%;
@@ -89,13 +78,27 @@ export const OverlayDiv = styled.div`
   top: 0;
   left: 5%;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  &:hover {
+    opacity: 0.5;
+  }
 `;
 
 export const HoverDiv = styled.div`
   position: relative;
   width: 100%;
   height: auto;
-  &:hover {
-  }
+`;
+
+export const StyledImg = styled.img`
+  width: 90%;
+  border-radius: 10px;
+  ${(props) => {
+    if (props.avatar)
+      return `
+    width: 10%;
+    border: white 1px solid;
+    border-radius: 50%;`;
+  }}
 `;
