@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/NFT-component-preview-card/static/css/main.073c9b0a.css",
-    "main.js": "/NFT-component-preview-card/static/js/main.9ebf4407.js",
-    "static/js/787.39a91798.chunk.js": "/NFT-component-preview-card/static/js/787.39a91798.chunk.js",
-    "static/media/equilibrium.jpg": "/NFT-component-preview-card/static/media/equilibrium.88bdbc91a544a2a4d04a.jpg",
-    "static/media/logo.svg": "/NFT-component-preview-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/NFT-component-preview-card/index.html",
-    "main.073c9b0a.css.map": "/NFT-component-preview-card/static/css/main.073c9b0a.css.map",
-    "main.9ebf4407.js.map": "/NFT-component-preview-card/static/js/main.9ebf4407.js.map",
-    "787.39a91798.chunk.js.map": "/NFT-component-preview-card/static/js/787.39a91798.chunk.js.map"
+    "main.css": "/nft-component-preview-card/static/css/main.073c9b0a.css",
+    "main.js": "/nft-component-preview-card/static/js/main.a41b613c.js",
+    "static/js/787.39a91798.chunk.js": "/nft-component-preview-card/static/js/787.39a91798.chunk.js",
+    "static/media/equilibrium.jpg": "/nft-component-preview-card/static/media/equilibrium.88bdbc91a544a2a4d04a.jpg",
+    "static/media/logo.svg": "/nft-component-preview-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nft-component-preview-card/index.html",
+    "main.073c9b0a.css.map": "/nft-component-preview-card/static/css/main.073c9b0a.css.map",
+    "main.a41b613c.js.map": "/nft-component-preview-card/static/js/main.a41b613c.js.map",
+    "787.39a91798.chunk.js.map": "/nft-component-preview-card/static/js/787.39a91798.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9ebf4407.js"
+    "static/js/main.a41b613c.js"
   ]
 }
