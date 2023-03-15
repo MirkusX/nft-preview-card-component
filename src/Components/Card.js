@@ -10,6 +10,7 @@ import {
   StyledImg,
   StyledP,
   StyledSection,
+  StyledSpan,
 } from "./StyledComponents";
 
 export const Card = () => {
@@ -37,7 +38,9 @@ export const Card = () => {
           </FlexDiv>
           <FlexDiv noSpaceBetween>
             <StyledImg avatar src={avatar} />
-            <p>Creation of Jules Wyvern</p>
+            <p>
+              Creation of <StyledSpan>Jules Wyvern</StyledSpan>
+            </p>
           </FlexDiv>
         </AlignLeftDiv>
       </StyledDiv>

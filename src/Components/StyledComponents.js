@@ -37,6 +37,10 @@ export const StyledImg = styled.img`
   }}
 `;
 
+export const StyledSpan = styled.span`
+  color: #eef8ff;
+`;
+
 export const StyledSection = styled.section`
   display: flex;
   align-items: center;
