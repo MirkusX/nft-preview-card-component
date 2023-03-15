@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nft-preview-card-component/static/css/main.073c9b0a.css",
-    "main.js": "/nft-preview-card-component/static/js/main.60e29d8b.js",
+    "main.js": "/nft-preview-card-component/static/js/main.6e8540ed.js",
     "static/js/787.39a91798.chunk.js": "/nft-preview-card-component/static/js/787.39a91798.chunk.js",
     "static/media/equilibrium.jpg": "/nft-preview-card-component/static/media/equilibrium.88bdbc91a544a2a4d04a.jpg",
     "static/media/logo.svg": "/nft-preview-card-component/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nft-preview-card-component/index.html",
     "main.073c9b0a.css.map": "/nft-preview-card-component/static/css/main.073c9b0a.css.map",
-    "main.60e29d8b.js.map": "/nft-preview-card-component/static/js/main.60e29d8b.js.map",
+    "main.6e8540ed.js.map": "/nft-preview-card-component/static/js/main.6e8540ed.js.map",
     "787.39a91798.chunk.js.map": "/nft-preview-card-component/static/js/787.39a91798.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.60e29d8b.js"
+    "static/js/main.6e8540ed.js"
   ]
 }
