@@ -1,4 +1,5 @@
 import equilibrium from "../Images/equilibrium.jpg";
+import avatar from "../Images/avatar.png";
 import {
   AlignLeftDiv,
   ClockIcon,
@@ -34,9 +35,10 @@ export const Card = () => {
               <p>3 days left</p>
             </FlexDiv>
           </FlexDiv>
-          <div>
+          <FlexDiv noSpaceBetween>
+            <StyledImg avatar src={avatar} />
             <p>Creation of Jules Wyvern</p>
-          </div>
+          </FlexDiv>
         </AlignLeftDiv>
       </StyledDiv>
     </StyledSection>

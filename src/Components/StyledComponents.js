@@ -29,7 +29,11 @@ export const StyledImg = styled.img`
   width: 90%;
   border-radius: 10px;
   ${(props) => {
-    if (props.avatar) return ``;
+    if (props.avatar)
+      return `
+    width: 10%;
+    border: white 1px solid;
+    border-radius: 50%;`;
   }}
 `;
 
