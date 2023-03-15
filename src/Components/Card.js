@@ -42,7 +42,7 @@ export const Card = () => {
               <p>3 days left</p>
             </FlexDiv>
           </FlexDiv>
-          <FlexDiv noSpaceBetween>
+          <FlexDiv noSpaceBetweenBorder>
             <StyledImg avatar src={avatar} />
             <p>
               Creation of <StyledSpan>Jules Wyvern</StyledSpan>

@@ -19,6 +19,9 @@ export const StyledDiv = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
 `;
 
 export const AlignLeftDiv = styled.div`
@@ -73,7 +76,8 @@ export const FlexDiv = styled.div`
     align-items: center;
     color: #8ba0bf;
     gap: 0.3em;
-    border-top: solid black 1px;
+    border-top: solid #283A52 1px;
+    padding-top: 0.5em;
     `;
   }}
 `;
