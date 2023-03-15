@@ -13,7 +13,7 @@ export const ClockIcon = styled(AiFillClockCircle)``;
 
 export const StyledDiv = styled.div`
   background-color: #15273f;
-  width: 20%;
+  width: 25%;
   padding: 1em 0;
   border-radius: 10px;
   display: flex;
