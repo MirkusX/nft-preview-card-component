@@ -82,15 +82,20 @@ export const StyledP = styled.p`
 `;
 
 export const OverlayDiv = styled.div`
-  background-color: white;
-  height: 50%;
-  width: 18%;
   position: absolute;
+  background-color: #008c99;
+  height: 99%;
+  width: 90%;
   top: 0;
-  left: 41%;
+  left: 5%;
+  border-radius: 10px;
+  opacity: 0.5;
 `;
 
 export const HoverDiv = styled.div`
+  position: relative;
+  width: 100%;
+  height: auto;
   &:hover {
   }
 `;
