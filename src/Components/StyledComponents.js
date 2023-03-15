@@ -55,7 +55,8 @@ export const FlexDiv = styled.div`
     justify-content: flex-start;
     align-items: center;
     color: #8ba0bf;
-    gap: 0.3em;`;
+    gap: 0.3em;
+   `;
   }}
   ${(props) => {
     if (props.noSpaceBetweenAlt)
@@ -64,6 +65,16 @@ export const FlexDiv = styled.div`
     align-items: center;
     color:#23D8E6;
     gap: 0.3em;  `;
+  }}
+  ${(props) => {
+    if (props.noSpaceBetweenBorder)
+      return `
+    justify-content: flex-start;
+    align-items: center;
+    color: #8ba0bf;
+    gap: 0.3em;
+    border-top: solid black 1px;
+    `;
   }}
 `;
 
